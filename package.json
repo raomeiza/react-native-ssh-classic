@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-ssh",
+  "name": "react-native-ssh-classic",
   "version": "1.0.1",
   "description": "a library that enables React Native apps to execute commands over SSH",
   "main": "index.js",
@@ -14,6 +14,6 @@
   "author": "",
   "license": "",
   "peerDependencies": {
-    "react-native": "0.x.x"
+    "react-native": ">=0.71.0"
   }
 }
