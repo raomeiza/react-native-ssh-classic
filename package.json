@@ -1,19 +1,56 @@
 
 {
   "name": "react-native-ssh-classic",
-  "version": "1.0.1",
-  "description": "a library that enables React Native apps to execute commands over SSH",
+  "version": "1.2.0",
+  "description": "A modern, maintained library that enables React Native apps to execute commands over SSH",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native",
-    "ssh"
+    "ssh",
+    "jsch",
+    "nmssh",
+    "secure-shell",
+    "remote-execution",
+    "android",
+    "ios"
   ],
-  "author": "",
-  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raomeiza/react-native-ssh-classic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raomeiza/react-native-ssh-classic/issues"
+  },
+  "homepage": "https://github.com/raomeiza/react-native-ssh-classic#readme",
+  "author": "Raomeiza",
+  "license": "MIT",
   "peerDependencies": {
+    "react": "*",
     "react-native": ">=0.71.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.76.0"
+  },
+  "files": [
+    "android",
+    "ios",
+    "index.js",
+    "index.d.ts",
+    "Podfile.example",
+    "react-native-ssh-classic.podspec",
+    "README.md"
+  ],
+  "codegenConfig": {
+    "name": "RNSSHSpec",
+    "type": "modules",
+    "jsSrcsDir": ".",
+    "android": {
+      "javaPackageName": "com.reactnative.ssh"
+    }
   }
 }
